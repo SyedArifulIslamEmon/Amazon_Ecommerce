@@ -1,0 +1,48 @@
+fastapi[all]==0.115.0
+uvicorn[standard]==0.30.6
+python-dotenv==1.0.1
+pydantic[email]==2.9.2
+pydantic-settings==2.5.2
+
+# Database
+beanie==1.26.0
+motor==3.6.0
+pymongo==4.10.1
+
+# Authentication
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-multipart==0.0.12
+
+# Redis & Caching
+redis==5.1.1
+hiredis==3.0.0
+
+# Background Tasks
+celery==5.4.0
+
+# AI/ML
+langchain==0.3.3
+langchain-openai==0.2.2
+openai==1.51.2
+sentence-transformers==3.2.0
+pillow==10.4.0
+torch==2.4.1
+torchvision==0.19.1
+
+# Payment
+stripe==11.1.0
+
+# Utilities
+aiofiles==24.1.0
+httpx==0.27.2
+python-slugify==8.0.4
+loguru==0.7.2
+
+# Email
+fastapi-mail==1.4.1
+
+# Testing
+pytest==8.3.3
+pytest-asyncio==0.24.0
+httpx==0.27.2
